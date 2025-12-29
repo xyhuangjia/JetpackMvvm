@@ -28,7 +28,7 @@
   兼容 ViewBinding 与 DataBinding，减少模板代码，让开发更轻量高效。
 
 - 🌐 **网络层可插拔设计**  
-  简洁而灵活的封装，可与 Retrofit、OkHttp 或任意网络框架无缝配合使用。
+  简洁而灵活的封装，可与 [Retrofit](https://github.com/square/retrofit)、[Rxhttp](https://github.com/liujingxing/rxhttp)、[Net](https://github.com/liangjingkanji/Net)等任意支持协程的网络框架无缝配合使用。
 
 - 💎 **丰富的便捷工具集**  
   内置常用封装：本地自动缓存、Glide 图片加载、Gson 数据解析、日志打印等，开箱即用。
@@ -45,7 +45,7 @@
 ## 🚀 版本依赖
 ```gradle
 dependencies {
-    implementation 'com.github.hegaojian:JetpackMvvm:2.0.2'
+    implementation 'com.github.hegaojian:JetpackMvvm:2.0.3'
 }
 ```
 ``` 
